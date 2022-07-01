@@ -31,7 +31,7 @@ int main(void)
 						putchar(' ');
 					}
 				}
-				o = '0';
+				while (o = '0');
 			}
 		}
 	}
