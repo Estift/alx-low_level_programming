@@ -16,7 +16,7 @@ int main(void)
 	{
 		for (ones = '0'; ones <= '9'; ones++)
 		{
-			for (t = '0'; t <= '9'; t++)
+			for (t = tens; t <= '9'; t++)
 			{
 				for (o = ones; o <= '9'; o++)
 				{
