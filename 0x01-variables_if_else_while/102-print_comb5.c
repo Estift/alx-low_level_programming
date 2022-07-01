@@ -28,8 +28,8 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
-					else (!((tens == '0' && ones == '0') && (t == '0' && o == '0')))
 				}
+				o = '1';
 			}
 		}
 	}
