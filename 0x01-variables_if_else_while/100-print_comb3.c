@@ -15,13 +15,11 @@ int main(void)
 		for (ones = (tens + 1); ones <= '9'; ones++)
 			{	putchar(tens);
 				putchar(ones);
-				
 				if (tens != '8' || ones != '9')
 				{
 					putchar(',');
 					putchar(' ');
-				}
-			
+				}			
 			}
 	}
 		putchar('\n');
