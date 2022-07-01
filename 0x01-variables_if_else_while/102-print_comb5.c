@@ -29,7 +29,7 @@ int main(void)
 						putchar(' ');
 					}
 				}
-				o = '1';
+				o = '0';
 			}
 		}
 	}
