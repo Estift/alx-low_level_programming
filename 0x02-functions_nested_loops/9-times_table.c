@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * time_table - print multiplication table
+ * times_table - print multiplication table
  */
 
-void time_table(void)
+void times_table(void)
 {
 	int row;
 	int column;
@@ -27,7 +27,7 @@ void time_table(void)
 				_putchar(' ');
 				_putchar('0' + product);
 			}
-			else if (product > =)
+			else if (product > 9)
 			{
 				_putchar(',');
 				_putchar(' ');
