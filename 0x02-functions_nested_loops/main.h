@@ -22,4 +22,65 @@ void print_alphabet(void);
 
 void print_alphabet_x10(void);
 
+/**
+ * _islower - check for lowercase
+ * @c: the character to check
+ * Return: 1 if c is lowercase, 0 if otherwise
+ */
+
+int _islower(int c);
+
+/**
+ * _isalpha - check for alphabet character
+ * @c: character to check
+ * Return: 1 if lower or uppercase, 0 if not alphabet character
+ */
+int _isalpha(int c);
+
+/**
+ * print_sign - print sign of number
+ */
+int print_sign(int n);
+
+/**
+ *
+ */
+
+int _abs(int);
+
+/**
+ *
+ */
+
+int print_last_digit(int);
+
+/**
+ *
+ */
+
+void jack_bauer(void);
+
+/**
+ *
+ */
+
+void time_table(void);
+
+/**
+ *
+ */
+
+int add(int a, int b);
+
+/**
+ *
+ */
+
+void print_to_98(int n);
+
+/**
+ *
+ */
+
+
 #endif
