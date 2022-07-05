@@ -2,7 +2,7 @@
 #define _main_h_
 
 /**
- * _putchar -writes the character c to stdout
+ * _putchar - writes the character c to stdout
  * @c: The character to print
  *
  * Return: On success 1.
@@ -22,3 +22,4 @@ void print_alphabet(void);
 
 void print_alphabet_x10(void);
 
+#endif
