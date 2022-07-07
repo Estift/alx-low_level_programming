@@ -4,9 +4,11 @@
  *  print_number - print an integer, without using long, arrays, or pointers
  *  @n: number to be printed
  */
+
+
 void print_number(int n)
 {
-	unsigned int ten, digit, positive = n;
+	unsigned int tens, digit, positive = n;
 	double t_beg = 1;
 
 	if (n ==  0)
@@ -22,6 +24,7 @@ void print_number(int n)
 		while (t_beg <= positive)
 			t_beg *= 10;
 		tens = t_beg / 10;
+
 		while (tens >= 1)
 		{
 			digit = positive / tens;
