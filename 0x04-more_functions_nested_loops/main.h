@@ -14,7 +14,7 @@ int _putchar(char c);
  * Return: 1 if true, 0 if false
  */
 
-int _isuper(int c);
+int _isupper(int c);
 
 /**
  * _isdigit - checks for digit 0 through 9
