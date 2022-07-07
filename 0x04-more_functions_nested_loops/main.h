@@ -83,4 +83,5 @@ void print_triangle(int size);
  * @n: number to be printed
  */
 
+void print_number(int n);
 #endif
